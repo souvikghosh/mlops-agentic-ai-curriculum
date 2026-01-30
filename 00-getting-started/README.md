@@ -234,14 +234,14 @@ Create a `progress.md` file to track your journey:
 
 ### Verification Checklist
 
-- [ ] `python3 --version` shows 3.10+
-- [ ] Virtual environment created and activated
-- [ ] Base packages installed
-- [ ] Git repository initialized
-- [ ] .gitignore file created
-- [ ] progress.md file created
-- [ ] First commit made
-- [ ] Repository pushed to GitHub
+- [x] `python3 --version` shows 3.10+
+- [x ] Virtual environment created and activated
+- [x] Base packages installed
+- [x ] Git repository initialized
+- [x ] .gitignore file created
+- [x ] progress.md file created
+- [x ] First commit made
+- [x ] Repository pushed to GitHub
 
 ---
 
@@ -250,13 +250,13 @@ Create a `progress.md` file to track your journey:
 Answer these questions to confirm you're ready:
 
 1. **What command activates a Python virtual environment on Linux?**
-
+source <name>/bin/activate on linux
 2. **Why do we use virtual environments for each project?**
-
+to keep library requirement dependencies separate for each project and clean install that does not interfere with other repos
 3. **What does `.gitignore` do and why is it important?**
-
+lists the files which are ignoored by git and can be changed locally without affecting git status. There are many files like .env, virtual env related files which are meant to be local on the dev machine
 4. **What is the purpose of `pip freeze > requirements.txt`?**
-
+automatically updates requirements.txt with the list of libararies installed in the repo
 ---
 
 ## Next Steps
