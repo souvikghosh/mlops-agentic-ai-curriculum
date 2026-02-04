@@ -81,8 +81,6 @@ git init
 ### Step 2: Create .gitignore
 
 Create a `.gitignore` file with:
-
-```
 # Virtual environment
 venv/
 .venv/
@@ -134,9 +132,7 @@ credentials/
 
 ```bash
 git add .
-git commit -m "Initialize MLOps + Agentic AI curriculum
-
-Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+git commit -m "Initialize MLOps + Agentic AI curriculum"
 ```
 
 ### Step 4: Create GitHub Repository
